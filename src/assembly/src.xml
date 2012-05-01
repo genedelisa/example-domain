@@ -1,0 +1,20 @@
+<assembly>
+	<id>src</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<baseDirectory>example-domain-0.0.1-SNAPSHOT-src
+	</baseDirectory>
+	<fileSets>
+		<fileSet>
+			<includes>
+				<include>pom.xml</include>
+				<include>.classpath</include>
+				<include>.project</include>
+			</includes>
+		</fileSet>
+		<fileSet>
+			<directory>src</directory>
+		</fileSet>
+	</fileSets>
+</assembly>
